@@ -1,0 +1,9 @@
+it('login test', function(){
+
+    cy.visit('https://dev.devmobo.com/login')
+    cy.get('#email').type('lokzz05000@gmail.com')
+    cy.get('#password').type('Lokesh@52510')
+    cy.get('#loginButton').click()
+   
+
+})   
